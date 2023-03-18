@@ -17,7 +17,7 @@ find_package(Qt6 COMPONENTS
 add_executable(UnitConvertByCLion
         mainwindow.cpp
         mainwindow.h
-        mainwindow.ui)
+        mainwindow.ui main.cpp)
 target_link_libraries(UnitConvertByCLion
         Qt::Core
         Qt::Gui
